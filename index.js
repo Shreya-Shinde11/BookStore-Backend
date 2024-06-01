@@ -3,8 +3,6 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 
-import Book from "./model/book.model.js";
-
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
